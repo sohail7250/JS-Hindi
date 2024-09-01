@@ -40,5 +40,40 @@
       // console.log(typeof bigNumber)  // bigInt
       // console.log(typeof outsideTemp)  //  object
       // console.log(typeof scoreValue)   // number
-      //console.log(typeof myFunction)    // function       object function 
-      console.log(typeof anotherId)    // symbol      
+      // console.log(typeof myFunction)    // function       object function 
+      // console.log(typeof anotherId)    // symbol   
+      
+      
+
+
+
+
+      //****************************************************************************** */
+
+
+     // Stack (primitive) ,  Heap (Non-Primitive)
+
+
+     let myYoutubeName = "sohailrockdotcom"
+
+     let anotherName = "myYoutubeName"
+
+     anotherName = "sohailakhatar"
+
+    //  console.log(myYoutubeName)
+    //  console.log(anotherName)
+
+     let userOne = {
+       email: "user@google.com",
+       upi: "user@ybl"
+     }
+
+     console.log(userOne.email)
+
+     let userTwo = userOne
+
+     userTwo.email = "sohail@gmail.com"
+
+     console.log(userOne.email);
+     console.log(userTwo.email);
+     
