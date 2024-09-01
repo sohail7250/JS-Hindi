@@ -1,0 +1,35 @@
+// let score = 123    //number
+// let score = "123"   // string
+// let score = "123abc"  //NaN   // number
+// let score = "sohail"   // NaN
+// let score = null   // 0
+// let score = undefined;     // NaN
+ // let score = true;    // 1
+//  let score = false;   // 0
+
+// let isLoggedIn = 1;    // true
+// let isLoggedIn = ""   // false
+// let isLoggedIn = "sohail"   // true
+
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn);
+
+
+
+
+
+
+
+// console.log(typeof score);
+// console.log(typeof (score));
+
+
+ // let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+
+
+let someNumber = 33
+let stringNumber  = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
