@@ -40,22 +40,32 @@ if (true) {
     const username = "sohail"
     if (username ==="sohail") {
         const website = " youtube"
-        console.log(username + website);
+        // console.log(username + website);
         
     }
-    // console.log(website);
+    // console.log(website);      //  error
     
 }
 
-// console.log(username);
+// console.log(username);      //  error
 
 
 
 // *******************  intresting concept ******************************
+console.log(addone(5))
 
-function addone(num){
+function addone(num){                      //  function
     return num + 1
 }
 
-addone(5)
+//  console.log(addone(5))
+
+
+// console.log(addTwo(5))    //  Not allowed cannot access addTwo before initialisation.
+
+const addTwo = function(num){               //  function or expression
+    return num + 2
+}
+
+// console.log(addTwo(5))
 
