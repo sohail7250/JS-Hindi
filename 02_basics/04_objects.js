@@ -29,10 +29,10 @@ const obj4 = {5: "a", 6: "b"}
 
 
 // const obj3 = {obj1 , obj2}
-// const obj3 = Object.assign(obj1, obj2)
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+//  const obj3 = Object.assign(obj1, obj2)
+const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2}
+// const obj3 = {...obj1, ...obj2,...obj4}
 
 // console.log(obj3);
 
@@ -64,14 +64,15 @@ const course = {
 //  ***********  Object Destructuring  *****************
 
 
-// course.courseInstructor
+// console.log(course.courseInstructor)
 
-// const {courseInstructor } = course
+
+const {courseInstructor } = course
  const {courseInstructor: instructor } = course
 
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 
 // const navbar = ({company}) => {    //   for React
