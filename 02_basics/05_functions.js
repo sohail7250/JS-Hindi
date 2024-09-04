@@ -25,27 +25,26 @@
 
 // }
 
+//     addTwoNumbers(3, 5);
 
-    //  addTwoNumbers(3, 5);
+//     addTwoNumbers(3,"5");
 
-    // addTwoNumbers(3,"5");
+//     addTwoNumbers(3, "a");
 
-    // addTwoNumbers(3, "a");
+//     addTwoNumbers(3, null);    // null 0
 
-    // addTwoNumbers(3, null);    // null 0
+    // const results = addTwoNumbers(3, 5)
 
-    // const result = addTwoNumbers(3, 5)
-
-    // console.log("Result: ", result);
+    // console.log("Result: ", results);
     
 
 
 
   function addTwoNumbers(number1, number2){
-    // let result = number1 + number2
+    let result = number1 + number2
+    console.log("sohail");
+    return result
     // console.log("sohail");
-    // return result
-    // // console.log("sohail");
 
     return number1 + number2
     
