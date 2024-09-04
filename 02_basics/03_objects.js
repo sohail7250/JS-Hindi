@@ -22,22 +22,22 @@ const jsUser = {
 // console.log(jsUser["full name"]);
 // console.log(jsUser[mySym]);     // symbol access
 
-jsUser.email = "sohail@chatgpt.com"
-// Object.freeze(jsUser)
-jsUser.email = "sohail@microsoft.com"
-console.log(jsUser);
+// jsUser.email = "sohail@chatgpt.com"
+// // Object.freeze(jsUser)
+// jsUser.email = "sohail@microsoft.com"
+// console.log(jsUser);
 
 
-jsUser.greetings = function(){
-    console.log("hello js user");
+// jsUser.greetings = function(){
+//     console.log("hello js user");
     
-}
+// }
 // console.log(jsUser.greetings);   //  [function (anonymous)]
 
 jsUser.greetingsTwo = function(){
     console.log(`hello js user, ${this.name}`);
     
-}
+ }
 
 console.log(jsUser.greetings());   
 console.log(jsUser.greetingsTwo());
