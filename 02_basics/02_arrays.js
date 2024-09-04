@@ -11,7 +11,7 @@ const dc_heros = ["Batman", "Superman", "Flash"];
 // console.log(allHeros);
 
 
-// const all_new_heros = [...marvel_heros, ...dc_heros]  
+// const all_new_heros = [...marvel_heros, ...dc_heros]     // Spread method()
 // console.log(all_new_heros);
 
 // const another_array = [1, 2, 3, [4, 5, 6], [ 6, 5]]
