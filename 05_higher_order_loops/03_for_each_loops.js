@@ -1,9 +1,10 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (items) {
-//     console.log(items);
-    
-// })
+// coding.forEach( function (items) {        // forEach method is ask for callBack function.
+//     console.log(items);                   //  callBack function me name nahi aata hai.
+//                                           // agar hum 1 line me forEach function ka use karte hai to ok
+//                                         //   agar hum () iska use karte hai to ok but agar hum {} scope use karte hai
+// })                                       //   to hume return keyword likhna hi hoga
 
 
 // coding.forEach( (items) => {
@@ -12,7 +13,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // })
 
 
-// function printMe(item){
+// function printMe (item) {
 //     console.log(item);
     
 // }

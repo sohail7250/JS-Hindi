@@ -30,16 +30,16 @@ map.set('Fr', "France")
 map.set('CHINA', "China")
 map.set('UK', "United Kingdom")
 
-//   console.log(map);
+  // console.log(map);
 
-//   for (const key of map) {        // Array form ans
-//     console.log(key);
+  for (const key of map) {        // Array form ans
+    // console.log(key);
     
-//   }
+  }
 
     
-   for (const [key, value] of map) {        // without arrays form
-//     console.log(key, ':-',  value);
+   for (const [key, value] of map) {        // without arrays & object form
+    // console.log(key, ':-',  value);
     
   }
 
@@ -50,9 +50,9 @@ map.set('UK', "United Kingdom")
   }
 
   for (const [key, value] of myObject) {     //  Object not iteratable both with array form and without arrays form
-    console.log(key, ':-', value);
+    console.log(key, ':-', value);            // error 
     
-  }
+ }
     
   // *****************  N O T E  *********************************
 

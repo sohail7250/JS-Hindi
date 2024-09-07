@@ -6,9 +6,9 @@ const myObject = {
 }
 
 for (const key in myObject) {
-   // console.log(key);
+//    console.log(key);
     // console.log(myObject[key]);
-    //console.log(`${key}  Shortcut is for ${ myObject[key]}`);
+    // console.log(`${key}  Shortcut is for ${ myObject[key]}`);
     
     
 }
@@ -17,7 +17,7 @@ const program = ["js", "rb", "py", "java", "cpp"]  // Arrays ki keys by default 
 
 for (const key in program) {
     // console.log(key);
-    //console.log(program[key]);
+    // console.log(program[key]);
     
     
 }
@@ -33,6 +33,7 @@ map.set('UK', "United Kingdom")
 
 
 for (const key in map) {       //  map not iteratable on for in loops
-    console.log(key);
+    // console.log(key);
+    // console.log(map [key])
     
 }
