@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function(resolve, reject){
-    //Do an async task
+    // Do an async task
     // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is compelete');
@@ -87,7 +87,7 @@ consumePromiseFive()
 //     }
 // }
 
-//getAllUsers()
+getAllUsers()
 
 fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
@@ -98,5 +98,5 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 })
 .catch((error) => console.log(error))
 
-// promise.all
-// yes this is also available
+  promise.all
+// yes this is also available -->
