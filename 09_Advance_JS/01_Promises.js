@@ -8,10 +8,10 @@ const promiseOne = new Promise(function(resolve, reject){
     }, 1000)
 })
 
-promiseOne.then(function(){
-    console.log("Promise consumed");
-})
-`
+// promiseOne.then(function(){
+//     console.log("Promise consumed");
+// })
+
 //  new Promise(function(resolve, reject){
 //     setTimeout(function(){
 //         console.log("Async task 2");
