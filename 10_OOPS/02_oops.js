@@ -1,19 +1,19 @@
-// const user = {
-//     username: "sohail",
-//     loginCount: 8,
-//     signesIn: true,
+const user = {
+    username: "sohail",
+    loginCount: 8,
+    signesIn: true,
 
-//     getUserDetails: function(){
-//         // console.log("Got user details from database");
-//         // console.log(`username: ${this.username}`);
-//         // console.log(this);
+    getUserDetails: function(){
+        console.log("Got user details from database");
+        console.log(`username: ${this.username}`);
+        console.log(this);
         
         
-//     }
-// }
-// console.log(user.username)
-// // console.log(user.getUserDetails())
-// console.log(this);       // {} empty 
+    }
+}
+console.log(user.username)
+console.log(user.getUserDetails())
+console.log(this);       // {} empty 
 
 // ********************  N O T E ***************************
 
@@ -21,19 +21,19 @@
 // lekin jab hum Browser ke ander global contex me console.log(this) ko print karate hai tab hume "windows object" milta hai. 
 
 
-// const user2 = {
-//     username: "sohail",
-//     loginCount: 8,
-//     signesIn: true,
+const user2 = {
+    username: "sohail",
+    loginCount: 8,
+    signesIn: true,
 
-//     getUserDetails: function(){
-//         // console.log("Got user details from database");
-//         // console.log(`username: ${this.username}`);
-//         // console.log(this);
+    getUserDetails: function(){
+        // console.log("Got user details from database");
+        // console.log(`username: ${this.username}`);
+        // console.log(this);
         
         
-//     }
-// }
+    }
+}
 
 
 // const promiseOne = new Promise()   // new keyword means constructor function
@@ -57,15 +57,15 @@ function User(username, loginCount, isLoggedIn){
 const userOne = new User("hitesh",12, true)
 const userTwo = new User("CodeWithSohail", 11 , false)
 console.log(userOne.constructor);   //  contructor property 1 reference hoti hai khud hi ke bare me.
-// console.log(userTwo);
+console.log(userTwo);
 
 //******************** N O T E *******************************
 
 // new keyword
 // jab bhi hum new keyword use karte hai to sab se pahle 1 empty object create hota hai jise hum instance kahte hai.
-// jaise humne node environment ke unde rdekha ki kaise this print karne pe empty object print ho raha tha.
+// jaise humne node environment ke unde dekha ki kaise this print karne pe empty object print ho raha tha.
 
-// 1:-  new  kaeywors ke wajah se  1 naya object create hota hai.
+// 1:-  new  kaeyword ke wajah se  1 naya object create hota hai.
 // 2:-  1 contructor function call hota hai new keyword ke wajah se. 
 //       ye kya karta hai ki jitne bhi arguments hote hai un sabko pack karta hai aur hame de deta hai.
 // 3:-  this keyword ke ander sare arguments inject ho jate hai
