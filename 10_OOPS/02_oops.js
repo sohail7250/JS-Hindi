@@ -65,7 +65,7 @@ console.log(userTwo);
 // jab bhi hum new keyword use karte hai to sab se pahle 1 empty object create hota hai jise hum instance kahte hai.
 // jaise humne node environment ke unde dekha ki kaise this print karne pe empty object print ho raha tha.
 
-// 1:-  new  kaeyword ke wajah se  1 naya object create hota hai.
+// 1:-  new  keyword ke wajah se  1 naya object create hota hai.
 // 2:-  1 contructor function call hota hai new keyword ke wajah se. 
 //       ye kya karta hai ki jitne bhi arguments hote hai un sabko pack karta hai aur hame de deta hai.
 // 3:-  this keyword ke ander sare arguments inject ho jate hai
