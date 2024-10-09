@@ -17,19 +17,20 @@ const gameName = new String('sohail-sa-.com');
 // console.log(gameName.indexOf(t));   // Error because t is a charrecter use t in ''
 // console.log(gameName.indexOf('a')); 
 
-const newString = gameName.substring(0,4) // 0 to 3   last index not included.
+
+const newString = gameName.substring(0,4) // 0 to 3   last index not included. //it can't hold negetive value.
 // console.log(newString);
 
-const anotherString = gameName.slice(0,4)  //it can't hold negetive value.
+// const anotherString = gameName.slice(0,4) 
 // console.log(anotherString);
 
 const anothString = gameName.slice(-8,4)  // it can hold negetive value. 
-// console.log(anothString);
+console.log(anothString);
 
 const newStringOne = "  sohail  "
-// console.log(newStringOne);
+console.log(newStringOne);
 
-// console.log(newStringOne.trim());   // it not include extra space // trimstart() & trimend() methods bhi hota hai
+console.log(newStringOne.trim());   // it not include extra space // trimstart() & trimend() methods bhi hota hai
 
 const url = "https://sohail.com/sohail%20akhtar"
 

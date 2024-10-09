@@ -23,7 +23,7 @@ let myCreatedDate = new Date("01-14-2024");   // mm-dd-yy
 // console.log(myCreatedDate.toDateString());
 // console.log(myCreatedDate.toLocaleString());
 
-let myTimeStamp = Date.now();   //very imp. whwn we designed quizez and polls who is fatest to winner.
+let myTimeStamp = Date.now();   //very imp. when we designed quizez and polls who is fatest to winner.
 // console.log(myTimeStamp);   // in millisecond
 
 // console.log(myCreatedDate.getTime());  // when we use hotel project then we compare time.
