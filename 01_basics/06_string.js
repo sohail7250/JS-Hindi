@@ -14,7 +14,7 @@ const gameName = new String('sohail-sa-.com');
 
 // console.log(gameName.charAt(2));
 
-// console.log(gameName.indexOf(t));   // Error because tis a charrecter use t in ''
+// console.log(gameName.indexOf(t));   // Error because t is a charrecter use t in ''
 // console.log(gameName.indexOf('a')); 
 
 const newString = gameName.substring(0,4) // 0 to 3   last index not included.
