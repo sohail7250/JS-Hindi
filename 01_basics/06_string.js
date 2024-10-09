@@ -37,6 +37,6 @@ console.log(url.replace('%20', '-'))   // kya replace karna hai aur kiske sath k
 
 console.log(url.includes('rock'))     // always gives  results in boolean true & false.
 
-console.log(gameName.split('-'));     // kiske base pe split karna hai yaha '-' ke base pe huewa hai.
+console.log(gameName.split('-'));     // kiske base pe split karna hai yaha '-' ke base pe huwa hai.
 
 
