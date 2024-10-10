@@ -5,7 +5,7 @@ const user = {
 
     welcomeMessage: function(){
         console.log(`${this.username}, welcome to website`);       // ****"NOTE"****  jo bhi abhi current contex me hai uske username ko print karo.
-        console.log(this);
+        // console.log(this);
         
     }  
 
@@ -15,13 +15,13 @@ const user = {
 // user.username = "Rock"
 // user.welcomeMessage()
 
-// console.log(this);             //  {}   empty object because we are using node environment.but in brower,the global object is Window object.
+// console.log(this);   //  {}   empty object because we are using node environment.but in brower,the global object is Window object.
 
 // function chai(){
 //     let username = "sohail"
 //     // console.log(this)           //   jab kisi function ke andar this ka print karte hai node environment me to bahut se values aate hai like, global  value,  micro task, idial time , fetch etc.
 
-//     // console.log(this.username)    // this contex only works in object, but not works in function.     //    undefined
+//     console.log(this.username)    // this contex only works in object, but not works in function.     //    undefined
 // }
 
 // chai()
@@ -41,8 +41,8 @@ const user = {
 
 // const chai = () => {
 //     let username = "sohail"
-//     // console.log(this.username);        //  undefined
-//     console.log(this);        //   {}
+//     console.log(this.username);        //  undefined
+//     // console.log(this);        //   {}
 // }
 
 // chai()
@@ -73,8 +73,8 @@ const user = {
 */
    
 
-// const addTwo = (num1, num2) => {username: "sohail"} // undefined     // object return karane ke liye use
+// const addTwo = (num1, num2) => {username: "sohail"} // undefined    
 
-const addTwo = (num1, num2) => ({username: "sohail"})  // object return karane ke liye use
+const addTwo = (num1, num2) => ({username: "sohail"})  // object return karane ke liye parentheises () use karna hi padega.
 
     console.log(addTwo(3, 4))
