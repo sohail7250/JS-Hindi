@@ -29,7 +29,7 @@ function one(){
 
     } 
     // console.log(website);
-     two()
+    //  two()
     
 }
 
@@ -61,11 +61,11 @@ function addone(num){                      //  function
 //  console.log(addone(5))
 
 
-// console.log(addTwo(5))    //  Not allowed cannot access addTwo before initialisation.
+// console.log(addTwo(5))    //   Error  //  Not allowed cannot access addTwo before initialisation.
 
 const addTwo = function(num){               //  function or expression
     return num + 2
 }
 
-// console.log(addTwo(5))
+console.log(addTwo(5))
 
