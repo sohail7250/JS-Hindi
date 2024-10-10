@@ -1,7 +1,7 @@
-// const coding = ["js", "ruby", "java", "python", "cpp"]
+const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // const values = coding.forEach( (item) => {
-//     // console.log(item);
+//     console.log(item);
 //     return item             //     undefined     //  forEach loop  koi  bhi values return nahi karta hai
     
 // })                                               // return karwane ke liye hame filter loop use karte hai.
@@ -12,14 +12,14 @@
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums =  myNums.filter( (num) => num > 4)        // filter method 1 condition mangta hai 
-const newNums =  myNums.filter( (num) => {
+const newNums =  myNums.filter( (num) => num > 4)        // filter method 1 condition mangta hai. 
+// const newNums =  myNums.filter( (num) => {
 
-//    num > 4              //  []  empty array because, //  we use {} scope so hame return keywordlikhna hi padega
+// //    num > 4            //  []  empty array because,we use {} scope so hame return keyword likhna hi padega.
 
-return num > 4
+// return num > 4
 
-}) 
+// }) 
 
 
 // const newNums = []
@@ -62,4 +62,4 @@ const books = [
   let userBooks = books.filter( (bk) => {
     return bk.publish >= 1995 && bk.genre === "History"}) 
 
-  console.log(userBooks);
+  // console.log(userBooks);
