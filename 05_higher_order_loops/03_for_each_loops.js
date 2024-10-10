@@ -18,6 +18,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
     
 // }
 
+// // coding.forEach(printMe())    // error 
 // coding.forEach(printMe)
 
 

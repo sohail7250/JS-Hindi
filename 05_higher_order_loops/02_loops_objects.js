@@ -7,7 +7,7 @@ const myObject = {
 
 for (const key in myObject) {
 //    console.log(key);
-    // console.log(myObject[key]);
+//     console.log(myObject[key]);
     // console.log(`${key}  Shortcut is for ${ myObject[key]}`);
     
     
@@ -34,6 +34,6 @@ map.set('UK', "United Kingdom")
 
 for (const key in map) {       //  map not iteratable on for in loops
     // console.log(key);
-    // console.log(map [key])
+    console.log(map [key])
     
 }
