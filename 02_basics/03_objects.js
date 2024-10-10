@@ -21,18 +21,20 @@ const jsUser = {
 // console.log(jsUser["email"]);
 // console.log(jsUser["full name"]);
 // console.log(jsUser[mySym]);     // symbol access
+// console.log(typeof jsUser.mySym);
 
 // jsUser.email = "sohail@chatgpt.com"
-// // Object.freeze(jsUser)
+// Object.freeze(jsUser)
 // jsUser.email = "sohail@microsoft.com"
 // console.log(jsUser);
 
 
-// jsUser.greetings = function(){
-//     console.log("hello js user");
+jsUser.greetings = function(){
+    console.log("hello js user");
     
-// }
-// console.log(jsUser.greetings);   //  [function (anonymous)]
+}
+console.log(jsUser.greetings);   //  [function (anonymous)]
+console.log(jsUser.greetings());   //  [function (anonymous)]
 
 jsUser.greetingsTwo = function(){
     console.log(`hello js user, ${this.name}`);
