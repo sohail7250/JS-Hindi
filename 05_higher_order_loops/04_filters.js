@@ -13,6 +13,9 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const newNums =  myNums.filter( (num) => num > 4)        // filter method 1 condition mangta hai. 
+
+console.log(newNums);
+
 // const newNums =  myNums.filter( (num) => {
 
 // //    num > 4            //  []  empty array because,we use {} scope so hame return keyword likhna hi padega.
