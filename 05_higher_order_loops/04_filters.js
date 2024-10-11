@@ -12,9 +12,9 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums =  myNums.filter( (num) => num > 4)        // filter method 1 condition mangta hai. 
+// const newNums =  myNums.filter( (num) => num > 4)        // filter method 1 condition mangta hai. 
 
-console.log(newNums);
+// console.log(newNums);
 
 // const newNums =  myNums.filter( (num) => {
 
@@ -24,16 +24,19 @@ console.log(newNums);
 
 // }) 
 
-
-// const newNums = []
-
-// myNums.forEach( (num) => {
-//     if (num > 4) {
-//         newNums.push(num)
-//     }
-// })
+// console.log(newNums);
 
 
+
+const newNums = []
+
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num)
+    }
+})
+
+console.log(newNums);
 
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
