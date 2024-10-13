@@ -58,6 +58,13 @@ let src2 = {
  console.log("src: ", src);
   console.log("dest: ", dest);
  
+//  **************** Garbage Collector *******************
 
+// Javascript :-  Garbage Collector (GC)
+// 1.       no control over garbage collector
+// 2.       always runs in bacground 
+
+
+//   primary focussed no leakege of memory , performance improvised, and unwanted memory delete/free 
 
  
