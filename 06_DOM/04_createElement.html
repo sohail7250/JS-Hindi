@@ -12,27 +12,27 @@
     </ul>
 </body>
 <script>
-    // const T1 = performance.now();
+    const T1 = performance.now();
     function addLanguage(langName){
         const li = document.createElement('li');
-        // li.innerHTML = `${langName}`
-        li.innerText = langName
+        li.innerHTML = `${langName}`
+        // li.innerText = langName
         document.querySelector('.language').appendChild(li)
     }
     addLanguage("python")
     addLanguage("typeScript")
-    // const T2 = performance.now();
-    // console.log("Total time taken by code 1:", +(T2-T1));
+    const T2 = performance.now();
+    console.log("Total time taken by code 1:", +(T2-T1));
 
-    // const T3 = performance.now();
+    const T3 = performance.now();
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
     addOptiLanguage('golang')
-    // const T4 = performance.now();
-    // console.log("Total time taken by code 2:", +(T4-T3));
+    const T4 = performance.now();
+    console.log("Total time taken by code 2:", +(T4-T3));
 
     // //Edit
     // const secondLang = document.querySelector("li:nth-child(2)")
