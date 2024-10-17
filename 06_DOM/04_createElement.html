@@ -12,6 +12,7 @@
     </ul>
 </body>
 <script>
+    // 1st approach
     const T1 = performance.now();
     function addLanguage(langName){
         const li = document.createElement('li');
@@ -24,32 +25,40 @@
     const T2 = performance.now();
     console.log("Total time taken by code 1:", +(T2-T1));
 
+    // 2nd approach optimised way
+
     const T3 = performance.now();
     function addOptiLanguage(langName){
         const li = document.createElement('li');
+        // const addText = document.createTextNode(langName)
+        // li.appendChild(addText)
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
-    addOptiLanguage('golang')
+    addOptiLanguage('Java')
     const T4 = performance.now();
     console.log("Total time taken by code 2:", +(T4-T3));
 
-    // //Edit
-    // const secondLang = document.querySelector("li:nth-child(2)")
-    // console.log(secondLang);
-    // //secondLang.innerHTML = "Mojo"
-    
-    // const newli = document.createElement('li')
-    // newli.textContent = "Mojo"
-    // secondLang.replaceWith(newli)
+    // //1st Edit
+     //1st approach
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    secondLang.innerHTML = "Mojo"
 
-    // //edit
-    // const firstLang = document.querySelector("li:first-child")
-    // firstLang.outerHTML = '<li>TypeScript</li>'
+    // 2nd approach
+    const newli = document.createElement('li')
+    newli.textContent = "golang"
+    secondLang.replaceWith(newli)
+
+    // // 2nd Edit
+
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeScript</li>'
 
     // //remove
-    // const lastLang = document.querySelector('li:last-child')
-    // lastLang.remove()
+    
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
 
 
 </script>
