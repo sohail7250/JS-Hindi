@@ -10,7 +10,6 @@
 //  const T2 = performance.now();
 //  console.log("Total time by code 1:", +(T2-T1));
 
-
 // // Code 2
 
 // const T3 = performance.now();
