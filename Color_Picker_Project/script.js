@@ -6,10 +6,13 @@ buttons.forEach(function (button) {
   button.addEventListener('click', function (e) {
     console.log(e);
     console.log(e.target);
-    if (e.target.id === 'grey') {
+    if (e.target.id === 'gold') {
       body.style.backgroundColor = e.target.id;
     }
-    if (e.target.id === 'white') {
+    if (e.target.id === 'green') {
+      body.style.backgroundColor = e.target.id;
+    }
+    if (e.target.id === 'red') {
       body.style.backgroundColor = e.target.id;
     }
     if (e.target.id === 'blue') {
@@ -18,6 +21,7 @@ buttons.forEach(function (button) {
     if (e.target.id === 'yellow') {
       body.style.backgroundColor = e.target.id;
     }
+ 
     
   });
 });
