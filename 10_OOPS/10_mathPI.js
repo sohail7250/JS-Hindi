@@ -1,4 +1,4 @@
-const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
+// const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
 
 // console.log(descripter);
 
@@ -19,7 +19,7 @@ const chai = {
 console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
 Object.defineProperty(chai, 'name', {
-    //writable: false,
+    writable: false,
     enumerable: true,
     
 })
