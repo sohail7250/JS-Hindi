@@ -39,16 +39,16 @@
     // console.log("TOO OUTER", username);
 
 
-    // function makeFunc() {
-    //     const name = "Mozilla";
-    //     function displayName() {
-    //         console.log(name);
-    //     }
-    //     return displayName;  // sirf display name nahi jayega agar uska outer function exist karta hai to uska bhi poora scope jayega. lexical scoping ki wajah se jata hai. poori memory share hoti hai na ki function ka executinal contex. pura (lexical scope)(imp.) ja raha hai.
-    // }
+    function makeFunc() {
+        const name = "Mozilla";
+        function displayName() {
+            console.log(name);
+        }
+        return displayName;  // sirf display name nahi jayega agar uska outer function exist karta hai to uska bhi poora scope jayega. lexical scoping ki wajah se jata hai. poori memory share hoti hai na ki function ka executinal contex. pura (lexical scope)(imp.) ja raha hai.
+    }
 
-    // const myFunc = makeFunc();
-    // myFunc();
+    const myFunc = makeFunc();
+    myFunc();
 
     
 
