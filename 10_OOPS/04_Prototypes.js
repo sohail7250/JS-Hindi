@@ -1,32 +1,32 @@
-let myfirstName = "sohail     "
-let mylastName = "akhtar     "
+// let myfirstName = "sohail     "
+// let mylastName = "akhtar     "
 
-// console.log(myName.length);
+// console.log(myfirstName.length);
 // console.log(myfirstName.truelength);
-// console.log(myName.trim().length);
+// console.log(myfirstName.trim().length);
 
 
-let myHeros = ["Thor","Spiderman"]
+// let myHeros = ["Thor","Spiderman"]
 
-let heroPower = {
-    Thor: "Hammer",
-    Spiderman: "Sling",
+// let heroPower = {
+//     Thor: "Hammer",
+//     Spiderman: "Sling",
 
-    getSpiderPower: function(){
-        console.log(`Spidy Power is ${this.Spiderman}`);
+//     getSpiderPower: function(){
+//         console.log(`Spidy Power is ${this.Spiderman}`);
         
-    }
-}
+//     }
+// }
 
-Object.prototype.sohail = function(){
-    console.log(`sohail is present in all objects`);
+// Object.prototype.sohail = function(){
+//     console.log(`sohail is present in all objects`);
     
-}
+// }
 
-Array.prototype.heySohail = function(){
-    console.log(`sohail says hello`);
+// Array.prototype.heySohail = function(){
+//     console.log(`sohail says hello`);
     
-}
+// }
 
 // heroPower.sohail()
 // myHeros.sohail()
@@ -34,12 +34,12 @@ Array.prototype.heySohail = function(){
 // heroPower.heySohail()     // error
 
 
-// inheritance
+// // inheritance
 
-const user = {
-    name: "coffee",
-    email: "coffee@example.com"
-}
+// const user = {
+//     name: "coffee",
+//     email: "coffee@example.com"
+// }
 
 const Teacher = {
     makeVideo: "True"
@@ -55,9 +55,9 @@ const TASupport = {
     __proto__: TeachingSupport
 }
 
-Teacher.__proto__= user
+// Teacher.__proto__= user
 
-//  ******************************  modern syntax *********************************
+// //  ******************************  modern syntax *********************************
 
 Object.setPrototypeOf(TeachingSupport, Teacher)
 

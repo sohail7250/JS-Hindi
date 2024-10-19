@@ -1,44 +1,44 @@
-const user = {
-    username: "sohail",
-    loginCount: 8,
-    signesIn: true,
+// const user = {
+//     username: "sohail",
+//     loginCount: 8,
+//     signesIn: true,
 
-    getUserDetails: function(){
-        console.log("Got user details from database");
-        console.log(`username: ${this.username}`);
-        console.log(this);
+//     getUserDetails: function(){
+//         console.log("Got user details from database");
+//         console.log(`username: ${this.username}`);
+//         // console.log(this);
         
         
-    }
-}
-console.log(user.username)
-console.log(user.getUserDetails())
-console.log(this);       // {} empty 
+//     }
+// }
+// console.log(user.username)
+// console.log(user.getUserDetails())
+// console.log(this);       // {} empty 
 
-// ********************  N O T E ***************************
+// // ********************  N O T E ***************************
 
-// Node environment ke ander jub hum global contex me console.log(this) print karate hai tab hame {} empty object milta hai.
-// lekin jab hum Browser ke ander global contex me console.log(this) ko print karate hai tab hume "windows object" milta hai. 
+// // Node environment ke ander jub hum global contex me console.log(this) print karate hai tab hame {} empty object milta hai.
+// // lekin jab hum Browser ke ander global contex me console.log(this) ko print karate hai tab hume "windows object" milta hai. 
 
 
-const user2 = {
-    username: "sohail",
-    loginCount: 8,
-    signesIn: true,
+// const user2 = {
+//     username: "sohail",
+//     loginCount: 8,
+//     signesIn: true,
 
-    getUserDetails: function(){
-        // console.log("Got user details from database");
-        // console.log(`username: ${this.username}`);
-        // console.log(this);
+//     getUserDetails: function(){
+//         console.log("Got user details from database");
+//         console.log(`username: ${this.username}`);
+//         console.log(this);
         
         
-    }
-}
+//     }
+// }
 
 
-// const promiseOne = new Promise()   // new keyword means constructor function
-// const date = new Date()           //  ye allow karta hai ki 1 hi object literals se multiples intances bana sako.
-                            // naya contex banane ke kaam aata hai
+// // const promiseOne = new Promise()   // new keyword means constructor function
+// // const date = new Date()           //  ye allow karta hai ki 1 hi object literals se multiples intances bana sako.
+//                             // naya contex banane ke kaam aata hai, or isi ko hum constructor function kahte hai.
 
 
 function User(username, loginCount, isLoggedIn){
@@ -46,7 +46,7 @@ function User(username, loginCount, isLoggedIn){
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn
 
-    this .greeting = function(){
+    this.greeting = function(){
         console.log(`Welcome ${this.username}`);
         
     }
@@ -54,10 +54,14 @@ function User(username, loginCount, isLoggedIn){
     return this
 }
 
-const userOne = new User("hitesh",12, true)
+// const userOne =  User("Sohail",12, true)
+// const userTwo =  User("CodeWithSohail", 11 , false)
+
+const userOne = new User("Sohail",12, true)
 const userTwo = new User("CodeWithSohail", 11 , false)
 console.log(userOne.constructor);   //  contructor property 1 reference hoti hai khud hi ke bare me.
-console.log(userTwo);
+console.log(userOne);
+// console.log(userTwo);
 
 //******************** N O T E *******************************
 
