@@ -29,19 +29,19 @@ const jsUser = {
 // console.log(jsUser);
 
 
-jsUser.greetings = function(){
-    console.log("hello js user");
+// jsUser.greetings = function(){
+//     console.log("hello js user");
     
-}
-console.log(jsUser.greetings);   //  [function (anonymous)]
-console.log(jsUser.greetings());   //  [function (anonymous)]
+// }
+// console.log(jsUser.greetings);   //  [function (anonymous)]
+// console.log(jsUser.greetings());   //  [function (anonymous)]
 
 jsUser.greetingsTwo = function(){
     console.log(`hello js user, ${this.name}`);
     
  }
 
-console.log(jsUser.greetings());   
+// console.log(jsUser.greetings());   
 console.log(jsUser.greetingsTwo());
 
 

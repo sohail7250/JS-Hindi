@@ -22,7 +22,7 @@ const dc_heros = ["Batman", "Superman", "Flash"];
 
 // console.log(Array.isArray("sohail"));
 // console.log(Array.from("sohail"));
-// console.log(Array.from({name: "sohail"}))     // intresting case
+// console.log(Array.from({name: "sohail"}))     // intresting case for intreview
 
 let score1 = 100
 let score2 = 200
