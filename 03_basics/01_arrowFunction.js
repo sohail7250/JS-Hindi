@@ -4,7 +4,7 @@ const user = {
     price: 999,
 
     welcomeMessage: function(){
-        console.log(`${this.username}, welcome to website`);       // ****"NOTE"****  jo bhi abhi current contex me hai uske username ko print karo.
+        // console.log(`${this.username}, welcome to website`);  // ****"NOTE"****  jo bhi abhi current contex me hai uske username ko print karo.
         // console.log(this);
         
     }  
@@ -19,7 +19,7 @@ const user = {
 
 // function chai(){
 //     let username = "sohail"
-//     // console.log(this)           //   jab kisi function ke andar this ka print karte hai node environment me to bahut se values aate hai like, global  value,  micro task, idial time , fetch etc.
+//     console.log(this)           //   jab kisi function ke andar this ka print karte hai node environment me to bahut se values aate hai like, global  value,  micro task, idial time , fetch etc.
 
 //     console.log(this.username)    // this contex only works in object, but not works in function.     //    undefined
 // }
@@ -42,7 +42,7 @@ const user = {
 // const chai = () => {
 //     let username = "sohail"
 //     console.log(this.username);        //  undefined
-//     // console.log(this);        //   {}
+//     console.log(this);        //   {}
 // }
 
 // chai()
@@ -69,15 +69,15 @@ const user = {
 //  *****************************  N O T E  ********************************
 
 
-/*   jab bhi hum arrow function use karenge tab agar hum curly braces {}, use kiya hai tab return keyword ka use karenenge aur jab parenthises (),  ka use karenge tab hum return keyword nahi use karenge.  yahi single line me likhana hai to return keyword nahi likhenge.
+/*   jab bhi hum arrow function use karenge tab agar hum curly braces {}, use kiya hai tab return keyword ka use karenenge aur jab parenthises (),  ka use karenge tab hum return keyword nahi use karenge.  yani single line me likhana hai to return keyword nahi likhenge.
 */
    
 
-// const addTwo = (num1, num2) => {username: "sohail"} // undefined    
+// const addTwo = (num1, num2) => {username:"sohail"} // undefined    
 
-const addTwo = (num1, num2) => ({username: "sohail"})  // object return karane ke liye parentheises () use karna hi padega.
+// const addTwo = (num1, num2) => ({username: "sohail"})  // object return karane ke liye parentheises () use karna hi padega.
 
-    console.log(addTwo(3, 4))
+    // console.log(addTwo(3, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
