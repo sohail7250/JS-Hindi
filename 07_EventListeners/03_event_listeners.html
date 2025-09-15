@@ -14,16 +14,22 @@
   
      
 
-    // setInterval(function(){
-    //     console.log("Sohail",Date.now());
+    setInterval(function(){
+        console.log("Sohail",Date.now());
         
-    // },1000)
+    },1000)
 
     const sayDate = function(str){
         console.log(str, Date.now());
     }
+    
+   
+    // const intervalId = setInterval(sayDate, 1000, "hi")
+    //  document.querySelector('#stop').addEventListener('click', function(){
+    //     clearInterval(intervalId)
+    //     console.log("STOPPED")
+    // })
 
-    const intervalId = setInterval(sayDate, 1000, "hi")
 
     clearInterval(intervalId)
  </script>

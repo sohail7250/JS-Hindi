@@ -44,17 +44,18 @@
 
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
-    // },false)
+    // })
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log(e);
+    //      console.log("owl clicked");
         
     // })
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
     //     e.stopPropagation()
-    // }, false)
+    // },false )
     
     // document.getElementById('google').addEventListener('click',function(e){
     //     e.preventDefault();
@@ -64,7 +65,7 @@
    
     
     document.querySelector('#images').addEventListener('click', function(e){
-        // console.log(e.target.parentNode);
+        console.log(e.target.parentNode);
         
         console.log(e.target.tagName);
         if (e.target.tagName === 'IMG') {
@@ -76,6 +77,6 @@
         
     },false)
     
-    //removeIt.parentNode.removeChild(removeIt)
+    // removeIt.parentNode.removeChild(removeIt)
 </script>
 </html>
